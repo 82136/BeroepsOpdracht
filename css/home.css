@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* landing */
+html, body
+{
+	height: 150vh;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+ 	margin-right: 0px;
+ 	margin-bottom: 0px;
+ 	margin-left: 0px;
+	background-color: whitesmoke;
+}
+
+
+#landing
+{
+	background-image: url(images/BG.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-style: oblique;
+	border-bottom: 1px solid black;
+}
+
+#landing2
+{
+	background-image: url(images/BG.jpg);
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	font-style: oblique;
+	border-bottom: 1px solid black;
+	padding-top: 25%;
+}
+/* einde landing */
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+
+/* begin navigatie */
+
+/* Link kleur = zwart */
+a:link 
+{
+	font-style: oblique;
+	font-weight: bold;
+}
+a:visited
+{
+	font-style: oblique;
+	font-weight: bold;
+}
+
+/* Navigatie */
+nav
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+	background: rgba(240,240,240,0.8);
+}
+
+nav.black
+{
+	background: rgba(0,0,0,0.6);
+	height: 100px;
+	padding: 10px 100px;
+}
+
+nav.black .logo
+{
+	list-style: none;
+}
+
+nav ul
+{
+	list-style: none;
+	float: center;
+	margin: 0;
+	pading: 0;
+	display: flex;	
+}
+
+nav ul li
+{
+	list-style: none;
+	width: 15%;
+}
+
+nav ul li a
+{
+	line-height: 80px;
+	color: black;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+	font-size: 16px;
+}
+
+nav.black ul li a 
+{
+	color: #fff;
+}
+
+nav ul li a:focus
+{
+	outline: none;
+}
+
+nav ul li a.active
+{
+	background: #E2472F;
+	color: black;
+	border-radius: 6px;
+}
+
+.hover:hover
+{
+	background-color: darkslategray;
+	border-radius: 25px;
+}
+
+li:last-child
+{
+	margin-left: 45%;
+}
+
+/* einde navigatie */
+
+#info
+{
+	background-image:url(images/testing.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -21px;
+	height: 580px;
+}
+
+#banner1
+{
+	background-color: rgba(57, 110, 220, 0.6);
+	height: 60px;
+	border-bottom: 2px solid black;
+}
+
+#banner1 h2
+{
+	padding-left: 400px;
+	padding-top: 13px;
+}
+
+.article1
+{
+	margin-left: 55px;
+	margin-top: 10px;
+	height: 490px;
+	width: 45%;
+	float: left;
+	border-top: 1px solid black;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	background-color: rgba(200, 200, 260, 0.8);
+	border-radius: 15px;
+	padding: 0px 10px;
+}
+
+.article2
+{
+	margin-right: 55px;
+	margin-top: 10px;
+	height: 490px;
+	width: 45%;
+	float: right;
+	border-top: 1px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	background-color: rgba(200, 200, 260, 0.8);
+	border-radius: 15px;
+	padding: 0px 10px;
+}
+.insideArticle
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.opening
+{
+	width: 600px;
+	text-align: center;
+	height: 300px;
+	border-radius: 5px;
+	padding: 5px 0px;
+}
+
+.nopadding
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: 18px;
+}
+
+.promotie
+{
+	text-align: center;
+	padding-top: 10px;
+}
+
+table
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+th
+{
+	border: 1px solid black;
+	width: 250px;
+}
+
+thead
+{
+	width: 1544px;	
+}
+
+td
+{
+	border: 1px solid black;
+	text-align: center;
+	width: 250px;
+}
+
+#Footer
+{
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 20px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: rgba(160, 160, 260, 1);
+}
+label.inlog
+{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px; 
+	argin-top: 50px;
+}
+div.inlog
+{
+	width:400px;
+}
+
+#Footer2
+{
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: rgba(160, 160, 260, 1);
+}
+
+#Galerij
+{
+	margin-top: -320px;
+	border: 0px solid black;
+}
+
+.galerijTD
+{
+	width: 250px;
+}
+
+.GalerijIMG
+{
+	height: 300px;
+	width: 500px;
+}
