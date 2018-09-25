@@ -135,7 +135,7 @@
 			</div>
 			
 			<?php
-		}/* level 0*//*test2*/
+		}/* level 0*//*testen*/
 	?>
 <div id="Footer2">
 	<label><strong>Tele-Lens - Snotroggelplein 31 Rotterdam 2451RD - Tele-Lens@outlook.com - 010-12345678</strong></label>
